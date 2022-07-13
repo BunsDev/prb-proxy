@@ -1,0 +1,210 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "TargetEcho",
+  "sourceName": "contracts/test/TargetEcho.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "input",
+          "type": "address"
+        }
+      ],
+      "name": "echoAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "input",
+          "type": "uint256[]"
+        }
+      ],
+      "name": "echoArray",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "input",
+          "type": "bytes"
+        }
+      ],
+      "name": "echoBytes",
+      "outputs": [
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "input",
+          "type": "bytes32"
+        }
+      ],
+      "name": "echoBytes32",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "echoMsgValue",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "input",
+          "type": "string"
+        }
+      ],
+      "name": "echoString",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "foo",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "bar",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "baz",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct TargetEcho.TargetStruct",
+          "name": "input",
+          "type": "tuple"
+        }
+      ],
+      "name": "echoStruct",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "foo",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "bar",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "baz",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct TargetEcho.TargetStruct",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "input",
+          "type": "uint256"
+        }
+      ],
+      "name": "echoUint256",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "input",
+          "type": "uint8"
+        }
+      ],
+      "name": "echoUint8",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5061048f806100206000396000f3fe6080604052600436106100965760003560e01c80636fb67f2f116100695780639a34832d1161004e5780639a34832d1461009b578063f07587f8146101b6578063fa5ffd62146101b657600080fd5b80636fb67f2f1461014957806382ac4d4f1461017657600080fd5b80630d7e2fce1461009b578063236a625b146100cf578063296e4fe8146100df578063648a1e8b1461011c575b600080fd5b3480156100a757600080fd5b506100b96100b6366004610276565b90565b6040516100c69190610314565b60405180910390f35b345b6040519081526020016100c6565b3480156100eb57600080fd5b506100fa6100b636600461032e565b60408051823581526020808401359082015291810135908201526060016100c6565b34801561012857600080fd5b506101376100b6366004610346565b60405160ff90911681526020016100c6565b34801561015557600080fd5b50610168610164366004610369565b9091565b6040516100c69291906103de565b34801561018257600080fd5b506101916100b6366004610433565b60405173ffffffffffffffffffffffffffffffffffffffff90911681526020016100c6565b3480156101c257600080fd5b506100d16100b6366004610469565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b600067ffffffffffffffff8084111561021b5761021b6101d1565b604051601f8501601f19908116603f01168101908282118183101715610243576102436101d1565b8160405280935085815286868601111561025c57600080fd5b858560208301376000602087830101525050509392505050565b60006020828403121561028857600080fd5b813567ffffffffffffffff81111561029f57600080fd5b8201601f810184136102b057600080fd5b6102bf84823560208401610200565b949350505050565b6000815180845260005b818110156102ed576020818501810151868301820152016102d1565b818111156102ff576000602083870101525b50601f01601f19169290920160200192915050565b60208152600061032760208301846102c7565b9392505050565b60006060828403121561034057600080fd5b50919050565b60006020828403121561035857600080fd5b813560ff8116811461032757600080fd5b6000806020838503121561037c57600080fd5b823567ffffffffffffffff8082111561039457600080fd5b818501915085601f8301126103a857600080fd5b8135818111156103b757600080fd5b8660208260051b85010111156103cc57600080fd5b60209290920196919550909350505050565b6020815281602082015260007f07ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff83111561041757600080fd5b8260051b80856040850137600092016040019182525092915050565b60006020828403121561044557600080fd5b813573ffffffffffffffffffffffffffffffffffffffff8116811461032757600080fd5b60006020828403121561047b57600080fd5b503591905056fea164736f6c634300080c000a",
+  "deployedBytecode": "0x6080604052600436106100965760003560e01c80636fb67f2f116100695780639a34832d1161004e5780639a34832d1461009b578063f07587f8146101b6578063fa5ffd62146101b657600080fd5b80636fb67f2f1461014957806382ac4d4f1461017657600080fd5b80630d7e2fce1461009b578063236a625b146100cf578063296e4fe8146100df578063648a1e8b1461011c575b600080fd5b3480156100a757600080fd5b506100b96100b6366004610276565b90565b6040516100c69190610314565b60405180910390f35b345b6040519081526020016100c6565b3480156100eb57600080fd5b506100fa6100b636600461032e565b60408051823581526020808401359082015291810135908201526060016100c6565b34801561012857600080fd5b506101376100b6366004610346565b60405160ff90911681526020016100c6565b34801561015557600080fd5b50610168610164366004610369565b9091565b6040516100c69291906103de565b34801561018257600080fd5b506101916100b6366004610433565b60405173ffffffffffffffffffffffffffffffffffffffff90911681526020016100c6565b3480156101c257600080fd5b506100d16100b6366004610469565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b600067ffffffffffffffff8084111561021b5761021b6101d1565b604051601f8501601f19908116603f01168101908282118183101715610243576102436101d1565b8160405280935085815286868601111561025c57600080fd5b858560208301376000602087830101525050509392505050565b60006020828403121561028857600080fd5b813567ffffffffffffffff81111561029f57600080fd5b8201601f810184136102b057600080fd5b6102bf84823560208401610200565b949350505050565b6000815180845260005b818110156102ed576020818501810151868301820152016102d1565b818111156102ff576000602083870101525b50601f01601f19169290920160200192915050565b60208152600061032760208301846102c7565b9392505050565b60006060828403121561034057600080fd5b50919050565b60006020828403121561035857600080fd5b813560ff8116811461032757600080fd5b6000806020838503121561037c57600080fd5b823567ffffffffffffffff8082111561039457600080fd5b818501915085601f8301126103a857600080fd5b8135818111156103b757600080fd5b8660208260051b85010111156103cc57600080fd5b60209290920196919550909350505050565b6020815281602082015260007f07ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff83111561041757600080fd5b8260051b80856040850137600092016040019182525092915050565b60006020828403121561044557600080fd5b813573ffffffffffffffffffffffffffffffffffffffff8116811461032757600080fd5b60006020828403121561047b57600080fd5b503591905056fea164736f6c634300080c000a",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
